@@ -12,7 +12,7 @@ namespace login.Controllers
         db dbop = new db();
         public ActionResult Index()
         {
-            return View("this is currect");
+            return View("hi");
         }
         [HttpPost]
         public ActionResult Index([Bind] ad_login ad)
